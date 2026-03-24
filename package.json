@@ -1,0 +1,16 @@
+{
+  "name": "track-trades",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@envio-dev/hypersync-client": "^1.1.0",
+    "viem": "^2.47.5"
+  }
+}
