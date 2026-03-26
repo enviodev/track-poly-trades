@@ -7,7 +7,7 @@ A lightweight script that listens for real-time Polymarket trade activity using 
 ## What This Does
 
 - Connects to the Polygon HyperSync endpoint
-- Listens for new blocks in real time
+- Listens for new blocks in real-time
 - Queries exchange contract logs for `OrderFilled` events
 - Decodes events using [viem](https://viem.sh) and prints `[BUY]` trade lines
 
@@ -37,6 +37,7 @@ bun run index.ts
 
 - [Polymarket Whale Tracker](https://github.com/enviodev/poly-whale-tracker) - terminal UI for large Polymarket trades
 - [Polymarket Indexer](https://github.com/enviodev/polymarket-indexer) - full HyperIndex indexer for Polymarket events
+- [Track Polymarket Trades blog post](https://docs.envio.dev/blog/track-polymarket-trades-hypersync) - step-by-step walkthrough of how this script works
 
 ## Documentation
 
